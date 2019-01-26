@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+{% block title %}My Page{% endblock %}
+{% block head %}
+{% parent %}
+{% endblock %}
+{% block content %}
+    <p>这是websocket页面</p>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/scripts/websocket.js"></script>
+    <script type="text/javascript" src="/scripts/socket.io.js"></script>
+{% endblock %}
